@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email">ઈમેલ</string>
+    <string name="password">પાસવર્ડ</string>
+    <string name="log_in">પ્રવેશ કરો</string>
+    <string name="need_an_account">એકાઉન્ટની જરૂર છે?</string>
+    <string name="sign_up">સાઇન અપ કરો!</string>
+    <string name="calls">કૉલ્સ</string>
+    <string name="feedback">પ્રતિભાવ</string>
+    <string name="enter_your_feedback_here">તમારો પ્રતિસાદ અહીં દાખલ કરો</string>
+    <string name="submit_feedback">પ્રતિસાદ સબમિટ કરો</string>
+    <string name="our_other_plateforms">અમારા અન્ય પ્લેટફોર્મ</string>
+    <string name="instagram">ઇન્સ્ટાગ્રામ</string>
+    <string name="telegram">ટેલિગ્રામ</string>
+    <string name="facebook">ફેસબુક</string>
+    <string name="confrom">પુષ્ટિ કરો</string>
+    <string name="username">વપરાશકર્તા નામ</string>
+    <string name="re_enter_password">પાસવર્ડ ફરીથી નાખો</string>
+    <string name="already_have_an_account">પહેલેથી જ એકાઉન્ટ છે?</string>
+    <string name="status">સ્થિતિ</string>
+    <string name="message">સંદેશ</string>
+    <string name="app_name">ક્વિકલિંક ચેટ</string>
+    <string name="fab_message_description">નવો સંદેશ લખો</string>
+    <string name="username_content_description">વપરાશકર્તા નામ</string>
+    <string name="Confirm">પુષ્ટિ કરો</string>
+    <string name="sign_in_to_continue">ચાલુ રાખવા માટે સાઇન ઇન કરો</string>
+    <string name="login">પ્રવેશ કરો</string>
+    <string name="username1">વપરાશકર્તા નામ</string>
+    <string name="sign_up1">સાઇન અપ કરો!</string>
+    <string name="create_a_new_account1">નવું ખાતું બનાવો</string>
+    <string name="email1">ઈમેલ</string>
+    <string name="email2">ઈમેલ</string>
+    <string name="password1">પાસવર્ડ</string>
+    <string name="password2">પાસવર્ડ</string>
+    <string name="re_enter_password1">પાસવર્ડ ફરીથી નાખો</string>
+    <string name="sign_up3">સાઇન અપ કરો!</string>
+    <string name="log_in_5">પ્રવેશ કરો</string>
+    <string name="username8">વપરાશકર્તા નામ</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#114232"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_titalbar"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/firstpagelogo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingTop="20sp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#35374B"
+        android:contentDescription="@string/fab_message_description"
+        app:backgroundTint="#35374B"
+        app:elevation="6dp"
+        app:rippleColor="#E2F4C5"
+        app:srcCompat="@drawable/application" />
+
+    <!-- Additional icons for feedback, status, and call -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fabMessage"
+        android:layout_alignBottom="@id/fabMessage"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="invisible"
+        app:backgroundTint="#35374B"
+        app:elevation="6dp"
+        app:rippleColor="#E2F4C5"
+        app:srcCompat="@drawable/rate" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fabFeedback"
+        android:layout_alignBottom="@id/fabFeedback"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="invisible"
+        app:backgroundTint="#35374B"
+        app:elevation="6dp"
+        app:rippleColor="#E2F4C5"
+        app:srcCompat="@drawable/statusicon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/fabStatus"
+        android:layout_alignBottom="@id/fabStatus"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="0dp"
+        android:background="#E2F4C5"
+        android:visibility="invisible"
+        app:backgroundTint="#35374B"
+
+        app:elevation="6dp"
+        app:rippleColor="#E2F4C5"
+        app:srcCompat="@drawable/phone" />
+
+</RelativeLayout>

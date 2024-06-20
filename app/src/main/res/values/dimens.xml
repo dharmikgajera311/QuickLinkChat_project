@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_feedback_translation_x">0dp</dimen> <!-- Set translationX to 0 for fabFeedback -->
+    <dimen name="fab_status_translation_x">0dp</dimen> <!-- Set translationX to 0 for fabStatus -->
+    <dimen name="fab_call_translation_x">0dp</dimen> <!-- Set translationX to 0 for fabCall -->
+    <dimen name="fab_feedback_translation_y">50dp</dimen> <!-- Adjust the translation distance for fabFeedback -->
+    <dimen name="fab_status_translation_y">100dp</dimen> <!-- Adjust the translation distance for fabStatus -->
+    <dimen name="fab_call_translation_y">150dp</dimen> <!-- Adjust the translation distance for fabCall -->
+</resources>

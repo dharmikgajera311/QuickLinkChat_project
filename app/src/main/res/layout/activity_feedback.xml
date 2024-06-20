@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#114232"
+    tools:context=".FeedbackActivity">
+
+    <LinearLayout
+        android:id="@+id/instagram"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:background="@drawable/instashape"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:rippleColor="#627254"
+        app:strokeColor="#D53E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/backwhiteround"
+            android:padding="0dp"
+            android:src="@drawable/newinsta" />
+
+        <TextView
+            android:layout_width="161dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingTop="5dp"
+            android:text="@string/instagram"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/telegram"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:background="@drawable/instashape"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="58dp"
+            android:background="@drawable/backwhiteround"
+            android:padding="0dp"
+            android:src="@drawable/telegram" />
+
+        <TextView
+            android:layout_width="161dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingTop="5dp"
+            android:text="@string/telegram"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/facebook"
+        android:layout_width="244dp"
+        android:layout_height="40dp"
+        android:background="@drawable/instashape"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="58dp"
+            android:background="@drawable/facebook"
+            android:padding="0dp"
+            android:src="@drawable/facebook" />
+
+        <TextView
+            android:layout_width="161dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingTop="5dp"
+            android:text="@string/facebook"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextFeedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E2F4C5"
+        android:gravity="top"
+        android:hint="@string/enter_your_feedback_here20000"
+        android:inputType="textMultiLine"
+        android:maxLength="500"
+        android:padding="12dp"
+        android:textColor="#E2F4C5"
+        android:textColorHint="#E2F4C5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleBarLayout"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/textViewCharacterLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleBarLayout"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="552dp"
+        android:numStars="5"
+        android:progressTint="#FAA300"
+        android:stepSize="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleBarLayout"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <Button
+        android:id="@+id/btnSubmitFeedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="396dp"
+        android:backgroundTint="@drawable/button_selector"
+        android:text="@string/submit_feedback"
+        android:textColor="#114232"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextFeedback"
+        app:layout_constraintVertical_bias="1.0"
+        app:rippleColor="#627254"
+        app:strokeColor="#D53E3E" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="430dp"
+        android:layout_height="49dp"
+        android:background="#76885B"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:text="@string/our_other_plateforms"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <LinearLayout
+        android:id="@+id/titleBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_titalbar"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <ImageView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/firstpagelogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_regular"
+            android:paddingTop="20sp"
+            android:text="@string/feedback"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

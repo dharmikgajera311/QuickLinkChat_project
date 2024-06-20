@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199377275722",
+    "project_id": "quicklinkchat",
+    "storage_bucket": "quicklinkchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199377275722:android:dd3f42fabefe5b1a430fb3",
+        "android_client_info": {
+          "package_name": "com.example.quicklinkchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZkA74tLCyfw03xA0BSphJXSrqKMuR4m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

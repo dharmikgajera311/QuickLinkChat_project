@@ -1,0 +1,28 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape with the logo -->
+    <item android:drawable="@drawable/firstpagelogo" />
+
+    <!-- Mask shape to create the cutout effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Change the dimensions and position according to your requirement -->
+            <size android:width="200dp" android:height="200dp" />
+            <solid android:color="#90D26D" />
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+
+    <!-- Overlay shape to create the transparent cutout -->
+    <item android:drawable="@drawable/firstpagelogo">
+        <shape android:shape="rectangle">
+            <!-- Adjust the dimensions and position to align with the cutout -->
+            <size android:width="100dp" android:height="100dp" />
+            <!-- Adjust the position of the cutout according to your requirement -->
+            <padding
+                android:top="50dp"
+                android:left="50dp"
+                android:right="50dp"
+                android:bottom="50dp" />
+        </shape>
+    </item>
+</layer-list>

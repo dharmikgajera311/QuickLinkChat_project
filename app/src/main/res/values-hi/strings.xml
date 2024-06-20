@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">क्विकलिंक चैट</string>
+    <string name="fab_message_description" tools:ignore="ExtraTranslation">एक नया संदेश लिखें</string>
+    <string name="username_content_description" tools:ignore="ExtraTranslation">उपयोगकर्ता_नाम</string>
+    <string name="Confirm" tools:ignore="ExtraTranslation">अनुरूप</string>
+    <string name="sign_in_to_continue" tools:ignore="ExtraTranslation">जारी रखने के लिए साइन इन करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="log_in">लॉग इन करें</string>
+    <string name="need_an_account">एक खाता चाहिए?</string>
+    <string name="sign_up">साइन अप करें !</string>
+    <string name="calls">कॉल</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="enter_your_feedback_here">अपनी प्रतिक्रिया यहां दर्ज करें</string>
+    <string name="submit_feedback">प्रतिपुष्टि दें</string>
+    <string name="our_other_plateforms">हमारे अन्य प्लेटफार्म</string>
+    <string name="instagram">इंस्टाग्राम</string>
+    <string name="telegram">टेलीग्राम</string>
+    <string name="facebook">फेसबुक</string>
+    <string name="confrom">उत्तर</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="re_enter_password">पासवर्ड फिर से दर्ज करें</string>
+    <string name="already_have_an_account">क्या आपके पास पहले से एक खाता मौजूद है?</string>
+    <string name="status">स्थिति</string>
+    <string name="message">संदेश</string>
+    <string name="username1">उपयोगकर्ता नाम</string>
+    <string name="sign_up1">साइन अप करें !</string>
+    <string name="create_a_new_account1">एक नया खाता बनाएं</string>
+    <string name="email1">ईमेल</string>
+    <string name="email2">ईमेल</string>
+    <string name="password1">पासवर्ड</string>
+    <string name="password2">पासवर्ड</string>
+    <string name="re_enter_password1">पासवर्ड फिर से दर्ज करें</string>
+    <string name="sign_up3">साइन अप करें !</string>
+    <string name="log_in_5">लॉग इन करें</string>
+    <string name="username8">उपयोगकर्ता नाम</string>
+</resources>
